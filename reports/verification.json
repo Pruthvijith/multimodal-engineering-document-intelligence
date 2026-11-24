@@ -1,0 +1,11 @@
+{
+  "project": "multimodal-engineering-document-intelligence",
+  "pytest_passed": 4,
+  "source_statements": 177,
+  "missed_statements": 6,
+  "statement_coverage": 96.61,
+  "coverage_scope": "records",
+  "mypy": "Success: no issues found in 4 source files",
+  "ruff": "check and format passed",
+  "ci": "configured; hosted run unverified"
+}

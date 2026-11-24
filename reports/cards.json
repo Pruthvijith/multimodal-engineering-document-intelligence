@@ -1,0 +1,620 @@
+{
+  "revision": "30b0a37ccaaa32f332884b96992754e246e48c5f",
+  "seed": 220,
+  "epochs": 8,
+  "train": 96,
+  "test": 32,
+  "accepted": 32,
+  "threshold": 0.8,
+  "exact_correct": 32,
+  "cases": [
+    {
+      "asset_group": 24,
+      "sha256": "4f33453be10bee814f43e8d717a7972a6eb7ba522951c89f1e85752dde0713d0",
+      "truth": {
+        "asset": "P0024",
+        "temperature_c": 38,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0024",
+        "temperature_c": 38,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9966999888420105,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 24,
+      "sha256": "8e7dbca7b3aa09683af1f7a2332acb560665cda1f7f10dee777d444b02140956",
+      "truth": {
+        "asset": "P0024",
+        "temperature_c": 39,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0024",
+        "temperature_c": 39,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9986879229545593,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 24,
+      "sha256": "d23957e828439eae598ccc74c0c93199575f703e7e738ef6ad9d037bd03b5a34",
+      "truth": {
+        "asset": "P0024",
+        "temperature_c": 45,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0024",
+        "temperature_c": 45,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9968486428260803,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 24,
+      "sha256": "7d45c021e36f61508b2c050df4bc1cefae5e2069053abfebe5fb94a7b22f277f",
+      "truth": {
+        "asset": "P0024",
+        "temperature_c": 46,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0024",
+        "temperature_c": 46,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9986391663551331,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 25,
+      "sha256": "95836a848290afe3d2bac3742472b72a1f34e958fa4fea32511a608f67e85a19",
+      "truth": {
+        "asset": "P0025",
+        "temperature_c": 55,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0025",
+        "temperature_c": 55,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "confidence": 0.99664705991745,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 25,
+      "sha256": "703368d83b4dd073cee89579705e6a033311cb55d4010644492ee457ec20d7b6",
+      "truth": {
+        "asset": "P0025",
+        "temperature_c": 56,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0025",
+        "temperature_c": 56,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9988929629325867,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 25,
+      "sha256": "9e32bc05c36b176c724d85f5b39b0ea58fa8838df78c5664bd62b7465410fa27",
+      "truth": {
+        "asset": "P0025",
+        "temperature_c": 62,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0025",
+        "temperature_c": 62,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9968215227127075,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 25,
+      "sha256": "17e6a05206f79881766d34710ed541ec2c47c193f1a6598de5c8bfc6180828ae",
+      "truth": {
+        "asset": "P0025",
+        "temperature_c": 63,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0025",
+        "temperature_c": 63,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.998840868473053,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 26,
+      "sha256": "90b72f926f7ee6bfc346aac269c61c27520eb74b89b00184a0a6a9de6fe6d3dd",
+      "truth": {
+        "asset": "P0026",
+        "temperature_c": 72,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0026",
+        "temperature_c": 72,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9967051148414612,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 26,
+      "sha256": "fd3714542def34748a5598a3c8b39924098cb5f6e5972c1411ffac26b23f1eef",
+      "truth": {
+        "asset": "P0026",
+        "temperature_c": 73,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0026",
+        "temperature_c": 73,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9990013241767883,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 26,
+      "sha256": "d9b817fb7d07274d43ae18fa0aaafc5ee0d090d3fd29248e32b9fe9fedc3c518",
+      "truth": {
+        "asset": "P0026",
+        "temperature_c": 79,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0026",
+        "temperature_c": 79,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9968554973602295,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 26,
+      "sha256": "3224160fe774534c4b4a3f6344a24e99b018e9d852e1b74e8f2f404c4a18324a",
+      "truth": {
+        "asset": "P0026",
+        "temperature_c": 80,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0026",
+        "temperature_c": 80,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9989612102508545,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 27,
+      "sha256": "2fb7b20e814ac31ae6159ea2ea62be79c3531381afc4b08f7362cd1deca4b94c",
+      "truth": {
+        "asset": "P0027",
+        "temperature_c": 24,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0027",
+        "temperature_c": 24,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9966537952423096,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 27,
+      "sha256": "8d40c7b73f06ab58e4fb22cca484c2990888b2a369a65facf3838b8e2f9b9d32",
+      "truth": {
+        "asset": "P0027",
+        "temperature_c": 25,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0027",
+        "temperature_c": 25,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9990643858909607,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 27,
+      "sha256": "bb72679dfa50cda0b9573efd93d55c305e6117894ee6bfc7d0d4522d85c93b62",
+      "truth": {
+        "asset": "P0027",
+        "temperature_c": 31,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0027",
+        "temperature_c": 31,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9968163371086121,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 27,
+      "sha256": "9b267ae12e60bd6cece07c89b025d38c863a8fedd9263ca4ae62c364be121fdf",
+      "truth": {
+        "asset": "P0027",
+        "temperature_c": 32,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0027",
+        "temperature_c": 32,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9990133047103882,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 28,
+      "sha256": "ace14e24f3fe479bdf42c5e2278c77d6089bb5b0f890bd94d6da9fa396e5b357",
+      "truth": {
+        "asset": "P0028",
+        "temperature_c": 41,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0028",
+        "temperature_c": 41,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9966698288917542,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 28,
+      "sha256": "af6bca2c5d3348b20a8eb118ece02aa35f00b5ea8875cd36a0e7df07b22d18d9",
+      "truth": {
+        "asset": "P0028",
+        "temperature_c": 42,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0028",
+        "temperature_c": 42,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.998685896396637,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 28,
+      "sha256": "14ec596079bd1ceb9d311cde467c5c67560a250bec71b214843abeb3b2e611b7",
+      "truth": {
+        "asset": "P0028",
+        "temperature_c": 48,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0028",
+        "temperature_c": 48,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9967989921569824,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 28,
+      "sha256": "88ddd39ca7be40d79d03d10da1098009f753fc358996a8c46aaa41b6b643d4fa",
+      "truth": {
+        "asset": "P0028",
+        "temperature_c": 49,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0028",
+        "temperature_c": 49,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9986439347267151,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 29,
+      "sha256": "7c7c8fc6fd97460b88cb68267d00285473d51ae62088bdade86d7731989c78b7",
+      "truth": {
+        "asset": "P0029",
+        "temperature_c": 58,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0029",
+        "temperature_c": 58,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9967045187950134,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 29,
+      "sha256": "2313669c99b31bdc5ddf7ddd46fc41aaa17312cd47c14623cd465eae774321fa",
+      "truth": {
+        "asset": "P0029",
+        "temperature_c": 59,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0029",
+        "temperature_c": 59,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9988816380500793,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 29,
+      "sha256": "794f5b1b472dec18d39690e638f28e15e4266fa7e3e6da21cbe16bd9230addcf",
+      "truth": {
+        "asset": "P0029",
+        "temperature_c": 65,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0029",
+        "temperature_c": 65,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9967507123947144,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 29,
+      "sha256": "375d8cebed95a7ad9b114c4a823d09ca4b22030393322335b5da4ea7b819fd3c",
+      "truth": {
+        "asset": "P0029",
+        "temperature_c": 66,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0029",
+        "temperature_c": 66,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9988547563552856,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 30,
+      "sha256": "573d4a21acbc8cbdb75bad1ef11abb1f1224a9df44cd9d396eeec46f7fbd12f6",
+      "truth": {
+        "asset": "P0030",
+        "temperature_c": 75,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0030",
+        "temperature_c": 75,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9966509938240051,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 30,
+      "sha256": "cb9906a720acd84ee1d3516c0ceecaaa829b77d0a6a4fc0f90561c5ceb7730be",
+      "truth": {
+        "asset": "P0030",
+        "temperature_c": 76,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0030",
+        "temperature_c": 76,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9990125894546509,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 30,
+      "sha256": "d8d7b0fc01845ad11b33eeaccd275a580c87d178d6f89f4701a95808b0f04d17",
+      "truth": {
+        "asset": "P0030",
+        "temperature_c": 82,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0030",
+        "temperature_c": 82,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9968162178993225,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 30,
+      "sha256": "5e4b424973184d07a1d02a08d1f6be4f69bfd84af55780be91a56a68d9c9b741",
+      "truth": {
+        "asset": "P0030",
+        "temperature_c": 83,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0030",
+        "temperature_c": 83,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9989652633666992,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 31,
+      "sha256": "45120c8dce266766f9439302ad9fb0298c8746a737ff707b807601688282494f",
+      "truth": {
+        "asset": "P0031",
+        "temperature_c": 27,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0031",
+        "temperature_c": 27,
+        "document_type": "inspection",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9966660141944885,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 31,
+      "sha256": "629224ac3bf31ed404fd18de9d64d040b35b1853c769d1ee4a495edcf800868e",
+      "truth": {
+        "asset": "P0031",
+        "temperature_c": 28,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0031",
+        "temperature_c": 28,
+        "document_type": "inspection",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9990596175193787,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 31,
+      "sha256": "2632f92ec31853b1f9547225b1266f41577dffc93d3e2931ae53db1584bcd550",
+      "truth": {
+        "asset": "P0031",
+        "temperature_c": 34,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "attributes": {
+        "asset": "P0031",
+        "temperature_c": 34,
+        "document_type": "service",
+        "observed_mark": "open"
+      },
+      "confidence": 0.9968019723892212,
+      "text_match": true,
+      "mark_match": true
+    },
+    {
+      "asset_group": 31,
+      "sha256": "2a49dcca13749a30f70e90ed3d8c7da82959ac18f87059ac67719f7f8f319224",
+      "truth": {
+        "asset": "P0031",
+        "temperature_c": 35,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "attributes": {
+        "asset": "P0031",
+        "temperature_c": 35,
+        "document_type": "service",
+        "observed_mark": "filled"
+      },
+      "confidence": 0.9990119934082031,
+      "text_match": true,
+      "mark_match": true
+    }
+  ]
+}
