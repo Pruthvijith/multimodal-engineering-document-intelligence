@@ -1,0 +1,8 @@
+numpy==2.3.5
+torch==2.8.0
+transformers==4.55.4
+Pillow==13.0.0
+pydantic==2.13.4
+safetensors==0.8.0
+fastapi==0.141.1
+uvicorn==0.52.1
