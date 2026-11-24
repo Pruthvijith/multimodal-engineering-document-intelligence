@@ -1,6 +1,6 @@
 numpy==2.3.5
-torch==2.8.0
-transformers==4.55.4
+torch==2.15.0
+transformers==5.24.0
 Pillow==13.0.0
 pydantic==2.13.4
 safetensors==0.8.0
